@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Внутр ссылка</title>
+</head>
+<body>
+  <h1>Внутреняя ссылка</h1>
+    <br>
+        <a href="index.html">Назад</a>
+</body>
+</html>
