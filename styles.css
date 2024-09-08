@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    cursor: pointer;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.sidebar li:hover {
+    background-color: #d0d0d0;
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+}
+.sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+.sub-menu {
+    display: none; /* Скрываем подменю по умолчанию */
+    list-style-type: none;
+    padding-left: 0;
+}
+.sub-menu li {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.sub-menu li a {
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+    color: black; /* Устанавливаем цвет текста без изменений */
+    display: block; /* Чтобы весь элемент был кликабельным */
+}
+.sub-menu li:hover {
+    background-color: #eaeaea; /* Цвет фона при наведении */
+}
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+.lesson-content {
+    text-align: left; /* Текст по центру сбоку от панели */
+}
